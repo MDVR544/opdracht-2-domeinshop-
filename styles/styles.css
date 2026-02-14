@@ -9,19 +9,42 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
 
 
-
 /*////////////////////////
-    2. Typography
+    2. Typography grijs #899CA0 kleine tekst en donkergroen #1C2B32 knoppen en headers)
 ////////////////////////*/
-
+body{
+    font-family: "Poppins", sans-serif;
+}
+button{
+    color: white;
+    background-color:#1C2B32;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    block-size: 70px;
+}
+input{
+    color: #899CA0;
+    text-align: center;
+}
+p{
+    color:#1C2B32;
+}
 
 
 /*////////////////////////
@@ -32,18 +55,90 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
+header{
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: auto auto;
+    background-position: center;
+
+}
+.header-section div{
+    text-align: center;
+    max-width: 1000px;
+    margin: 100px auto;
+
+}
+.header-section h1{
+    font-size: 120px;
+    font-weight: 700;
+    color: #1C2B32;
+}
+
+.header-section p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.header-section input{
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 50px 0 0 50px;
+    block-size: 70px;
+    width: 400px;
+}
+
+.header-section button{
+    border-radius: 0 50px 50px 0;
+    width: 300px;
+}
+
+.header-section input + button{
+    margin: -6px;
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
+main{
+    max-width: 1000px;
+    margin: auto;
+    }
+
 
 
 
 /*///////////// 3.3 Support /////////////*/
+.callcenter-image{
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+}
 
+a {
+    color: grey;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
 
-
+.support button{
+    border-radius: 50px;
+    width: 200px;
+}
 /*///////////// 3.4 Faq /////////////*/
-
+.drop-down-menu{
+    cursor: pointer;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+footer{
+    text-align: center;
+    background-color: #1C2B32;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+
+}
