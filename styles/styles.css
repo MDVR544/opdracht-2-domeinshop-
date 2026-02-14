@@ -11,7 +11,6 @@ Table of Contents:
 ////////////////////////////////////////////////////////////////////////*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
@@ -39,24 +38,24 @@ button{
     block-size: 70px;
 }
 input{
-    color: #899CA0;
-    text-align: center;
+    color: #1C2B32;
+    padding-left: 40px;
 }
 p{
     color:#1C2B32;
 }
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
 main h2{
     padding: 20px;
     text-align: center;
     font-size: 30px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
-
-
-
-/*////////////////////////
-    3. Areas
-////////////////////////*/
 
 
 
@@ -66,18 +65,20 @@ header{
     background-image: url("../assets/images/mountains.jpg");
     background-size: auto auto;
     background-position: center;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 50px;
 
 }
 .header-section div{
     text-align: center;
     max-width: 1000px;
-    margin: 100px auto;
-
+    margin: auto;
 }
 .header-section h1{
     font-size: 120px;
     font-weight: 700;
-    color: #1C2B32;
+    padding-top: 50px;
 }
 
 .header-section p{
@@ -90,6 +91,7 @@ header{
     font-size: 20px;
     font-weight: 300;
     border-radius: 50px 0 0 50px;
+    background-color: transparent;
     block-size: 70px;
     width: 400px;
 }
@@ -112,23 +114,37 @@ main{
 .review{
     font-weight: 300;
     border-radius: 15px;
+    Height: 300px;
+    width: 100%;
     box-shadow: 3px 3px 10px grey;
-    padding: 70px;
-    margin:50px;
-
+    padding: 75px;
+    margin-bottom: 50px;
+    position: relative;
 }
-.person-details img {
+.image-person {
     height: 44px;
     width: 44px;
     vertical-align: middle;
+    display: inline-block;
+    margin-right: 50px;
+}
+.review p{
+    margin-bottom: 30px;
+}
+
+.quote{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 70px;
+    left: 40px;
 }
 /*///////////// 3.3 Support /////////////*/
 .callcenter-image{
     border: none;
     border-radius: 15px;
-    width: 100%;
+    width: 1000px;
 }
-
 .support p{
     font-weight: 300;
     padding-top: 30px;
@@ -150,7 +166,6 @@ a:hover{
 .drop-down-menu{
     cursor: pointer;
 }
-
 details summary{
     line-height: 60px;
     font-weight: 300;
@@ -173,9 +188,8 @@ footer{
     padding:30px;
     margin-top: 50px;
 }
-footer p{
+footer p {
     color: white;
     font-size: 15px;
     font-weight: 300;
-
 }
