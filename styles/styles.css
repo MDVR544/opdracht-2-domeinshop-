@@ -45,6 +45,13 @@ input{
 p{
     color:#1C2B32;
 }
+main h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 
 
 /*////////////////////////
@@ -102,10 +109,19 @@ main{
     max-width: 1000px;
     margin: auto;
     }
+.review{
+    font-weight: 300;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px grey;
+    padding: 70px;
+    margin:50px;
 
-
-
-
+}
+.person-details img {
+    height: 44px;
+    width: 44px;
+    vertical-align: middle;
+}
 /*///////////// 3.3 Support /////////////*/
 .callcenter-image{
     border: none;
@@ -113,6 +129,11 @@ main{
     width: 100%;
 }
 
+.support p{
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
 a {
     color: grey;
     text-decoration: underline;
@@ -130,11 +151,27 @@ a:hover{
     cursor: pointer;
 }
 
+details summary{
+    line-height: 60px;
+    font-weight: 300;
+}
+details p{
+    font-weight: 300;
+    Background-color: slategrey;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
 
 /*///////////// 3.5 Footer /////////////*/
 footer{
     text-align: center;
     background-color: #1C2B32;
+    background-size: auto;
+    padding:30px;
+    margin-top: 50px;
 }
 footer p{
     color: white;
